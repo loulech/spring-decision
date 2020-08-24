@@ -1,11 +1,11 @@
 package com.meituan.sankuai.decisions.module.datadecisions.core;
 
 import org.jeasy.rules.api.Facts;
-import org.jeasy.rules.api.Rule;
+import org.jeasy.rules.core.BasicRule;
 
 import java.util.Set;
 
-public abstract class Decision implements Rule {
+public abstract class Decision extends BasicRule {
 
     /**
      * 条件函数, 满足条件
@@ -46,12 +46,4 @@ public abstract class Decision implements Rule {
     public abstract Set<String> getDependencies();
 
 
-    @Override
-    public int compareTo(Rule rule) {
-        if (this.getPriority() < rule.getPriority()) {
-            return -1;
-        } else {
-            return this.getPriority() > rule.getPriority() ? 1 : this.getName().compareTo(rule.getName());
-        }
-    }
 }
