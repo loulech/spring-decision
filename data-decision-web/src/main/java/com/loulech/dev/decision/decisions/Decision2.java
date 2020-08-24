@@ -1,6 +1,6 @@
-package com.meituan.sankuai.decisions.module.datadecisions.decisions;
+package com.loulech.dev.decision.decisions;
 
-import com.meituan.sankuai.decisions.module.datadecisions.core.Decision;
+import com.loulech.dev.decision.core.Decision;
 import org.jeasy.rules.api.Facts;
 import org.springframework.stereotype.Component;
 
@@ -8,7 +8,7 @@ import java.util.Set;
 
 
 @Component
-public class Decision1 extends Decision {
+public class Decision2 extends Decision {
     @Override
     public boolean evaluate(Facts facts) {
         return true;
@@ -16,12 +16,12 @@ public class Decision1 extends Decision {
 
     @Override
     public void execute(Facts facts) {
-        System.out.println("fuck u");
+        System.out.println("love u");
     }
 
     @Override
     public int getPriority() {
-        return 0;
+        return 2;
     }
 
     @Override

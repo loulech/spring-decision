@@ -1,4 +1,4 @@
-package com.meituan.sankuai.decisions.module.datadecisions;
+package com.loulech.dev.decision;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

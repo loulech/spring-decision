@@ -1,4 +1,4 @@
-package com.meituan.sankuai.decisions.module.datadecisions.core;
+package com.loulech.dev.decision.core;
 
 
 import com.google.common.collect.Sets;

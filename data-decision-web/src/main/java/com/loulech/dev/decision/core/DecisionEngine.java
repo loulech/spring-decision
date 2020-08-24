@@ -1,4 +1,4 @@
-package com.meituan.sankuai.decisions.module.datadecisions.core;
+package com.loulech.dev.decision.core;
 
 import lombok.extern.slf4j.Slf4j;
 import org.jeasy.rules.api.Facts;

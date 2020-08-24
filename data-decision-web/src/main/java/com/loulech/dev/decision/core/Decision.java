@@ -1,4 +1,4 @@
-package com.meituan.sankuai.decisions.module.datadecisions.core;
+package com.loulech.dev.decision.core;
 
 import org.jeasy.rules.api.Facts;
 import org.jeasy.rules.core.BasicRule;

@@ -1,9 +1,8 @@
-package com.meituan.sankuai.decisions.module.datadecisions;
+package com.loulech.dev.decision;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootConfiguration
