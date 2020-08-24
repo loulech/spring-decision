@@ -7,7 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootConfiguration
 @EnableAutoConfiguration
-@ComponentScan(value = {"com.meituan.sankuai.decisions.module.datadecisions"})
 public class DataDecisionsApplication {
 
 	public static void main(String[] args) {

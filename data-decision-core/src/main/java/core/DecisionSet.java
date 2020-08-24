@@ -1,4 +1,4 @@
-package com.loulech.dev.decision.core;
+package core;
 
 
 import com.google.common.collect.Sets;

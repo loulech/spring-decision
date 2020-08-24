@@ -1,4 +1,4 @@
-package com.loulech.dev.decision.core;
+package core;
 
 import org.jeasy.rules.api.Facts;
 import org.jeasy.rules.core.BasicRule;
