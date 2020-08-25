@@ -1,6 +1,6 @@
 package com.loulech.dev.decision.decisions;
 
-import core.Decision;
+import com.loulech.dev.decision.core.Decision;
 import org.jeasy.rules.api.Facts;
 import org.springframework.stereotype.Component;
 
